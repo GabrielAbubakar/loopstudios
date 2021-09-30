@@ -2,16 +2,19 @@
 @font-face {
     font-family: 'Alata';
     src: url(font/Alata-Regular.ttf);
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'Josefin Sans';
     src: url(font/JosefinSans-Regular.ttf);
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'Josefin Sans Light';
     src: url(font/JosefinSans-Light.ttf);
+    font-display: swap;
 }
 
 
@@ -734,7 +737,7 @@
 }
 
 .copyright {
-    color: hsl(0, 0%, 41%);
+    color: #ada9a9;
     text-align: right;
 
     @include respond(tab-land) {
